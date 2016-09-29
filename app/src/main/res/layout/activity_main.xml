@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.snwfnh.application929.MainActivity">
+<fragment
+    android:layout_above="@+id/ll_buttom"
+    android:id="@+id/fl_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</fragment>
+   <LinearLayout
+       android:layout_alignParentBottom="true"
+       android:layout_below="@id/fl_view"
+       android:id="@+id/ll_buttom"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <Button
+           android:text="F1"
+           style="@style/style_btn"
+          android:id="@+id/btn_F1" />
+       <Button
+           android:text="F2"
+           style="@style/style_btn"
+           android:id="@+id/btn_F2" />
+       <Button
+           android:text="F3"
+           style="@style/style_btn"
+           android:id="@+id/btn_F3" />
+
+   </LinearLayout>
+</RelativeLayout>
